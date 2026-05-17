@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Liên hệ — VPIC</title>
+<meta name="description" content="Liên hệ VPIC để yêu cầu báo giá gia công sơn. Phản hồi trong 48 giờ làm việc." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="nav">
+  <a class="nav-logo" href="index.html">
+    <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+      <path d="M 96 120 L 162 120 L 180 192 L 180 252 Z" fill="#1B365D"/>
+      <path d="M 264 120 L 198 120 L 180 192 L 180 252 Z" fill="#D32F2F"/>
+    </svg>
+    VPIC
+  </a>
+  <ul class="nav-links">
+    <li><a href="index.html">Trang chủ</a></li>
+    <li><a href="ve-vpic.html">Về VPIC</a></li>
+    <li class="has-dropdown">
+      <a href="san-pham.html">Sản phẩm</a>
+      <ul class="dropdown">
+        <li><a href="san-pham/son-chong-tham.html">Sơn chống thấm</a></li>
+        <li><a href="san-pham/son-cong-nghiep.html">Sơn công nghiệp</a></li>
+        <li><a href="san-pham/son-epoxy.html">Sơn Epoxy &amp; sàn</a></li>
+        <li><a href="san-pham/son-trang-tri.html">Sơn trang trí</a></li>
+      </ul>
+    </li>
+    <li><a href="quy-trinh.html">Quy trình</a></li>
+    <li><a href="nha-may.html">Nhà máy</a></li>
+    <li><a href="chat-luong.html">Chất lượng</a></li>
+    <li><a href="kien-thuc.html">Kiến thức</a></li>
+    <li><a href="lien-he.html" class="active">Liên hệ</a></li>
+  </ul>
+  <div class="nav-lang">
+    <a href="index.html" class="active">VI</a>
+    <span>/</span>
+    <a href="en/contact.html">EN</a>
+  </div>
+  <a href="lien-he.html" class="nav-cta">Yêu cầu báo giá</a>
+  <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav><section class="page-header">
+  <div class="page-header-inner">
+    <div class="breadcrumb"><a href="index.html">Trang chủ</a> <span class="sep">/</span> <span>Liên hệ</span></div>
+    <h1 class="page-title">Gửi brief, <span class="accent">nhận báo giá</span> trong 48 giờ.</h1>
+    <p class="page-subtitle">Đội kinh doanh kỹ thuật VPIC tiếp nhận yêu cầu gia công sơn cho mọi nhóm sản phẩm. Phản hồi sơ bộ trong 48 giờ làm việc — bao gồm hướng công thức, dự kiến giá thành và timeline ra mẫu.</p>
+  </div>
+</section>
+<section class="section contact-block" style="padding-top: 100px;">
+  <div class="section-inner">
+    <div class="contact-grid">
+      <div class="contact-left">
+        <div class="section-label" style="color: var(--red);">Thông tin liên hệ</div>
+        <h2 class="section-title" style="font-size: clamp(32px, 4vw, 52px);">Ba kênh để bắt đầu trao đổi.</h2>
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <div class="contact-info-label">Hotline OEM</div>
+            <div class="contact-info-value">024 ──── ────<small>Phòng kinh doanh gia công — 8h00–17h30 (T2–T7)</small></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-label">Email</div>
+            <div class="contact-info-value">oem@vpic.vn<small>Mọi yêu cầu báo giá &amp; brief sản phẩm</small></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-label">Nhà máy</div>
+            <div class="contact-info-value">VPIC Plant.01<small>Khu công nghiệp ────────, Việt Nam</small></div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-label">Văn phòng</div>
+            <div class="contact-info-value">VPIC HQ<small>Số ──, ────────, Hà Nội</small></div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" onsubmit="event.preventDefault(); alert('Cảm ơn bạn — VPIC sẽ phản hồi trong 48 giờ làm việc.'); this.reset();">
+        <div class="form-title">Form yêu cầu báo giá</div>
+        <div class="form-subtitle">Điền brief sơ bộ — VPIC phản hồi trong 48h</div>
+
+        <div class="form-grid-2">
+          <div class="form-row"><label>Tên thương hiệu / Công ty</label><input type="text" required placeholder="Ví dụ: Sơn ABC" /></div>
+          <div class="form-row"><label>Người liên hệ</label><input type="text" required placeholder="Họ và tên" /></div>
+        </div>
+        <div class="form-grid-2">
+          <div class="form-row"><label>Email</label><input type="email" required placeholder="ban@email.com" /></div>
+          <div class="form-row"><label>Điện thoại</label><input type="tel" required placeholder="0xx xxx xxxx" /></div>
+        </div>
+        <div class="form-row">
+          <label>Nhóm sản phẩm cần gia công</label>
+          <select required>
+            <option value="">— Chọn nhóm —</option>
+            <option>Sơn chống thấm</option>
+            <option>Sơn công nghiệp / anti-corrosion</option>
+            <option>Sơn Epoxy &amp; sàn</option>
+            <option>Sơn trang trí / sơn màu</option>
+            <option>Khác / Đa nhóm</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>Sản lượng dự kiến</label>
+          <select>
+            <option value="">— Chọn —</option>
+            <option>Dưới 10 tấn / lần (đơn thử nghiệm)</option>
+            <option>10 – 50 tấn / năm</option>
+            <option>50 – 200 tấn / năm</option>
+            <option>200 – 1.000 tấn / năm</option>
+            <option>Trên 1.000 tấn / năm</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label>Mô tả ngắn yêu cầu</label>
+          <textarea placeholder="Sản lượng dự kiến, chỉ tiêu kỹ thuật quan trọng, deadline ra mẫu, mẫu đối sánh..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Gửi yêu cầu →</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-inner">
+    <div class="reveal">
+      <div class="section-label">FAQ</div>
+      <h2 class="section-title">Một số câu hỏi <span class="accent">thường gặp</span>.</h2>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-cell reveal">
+        <div class="feature-num">Q.01</div>
+        <h3 class="feature-title">VPIC có MOQ tối thiểu không?</h3>
+        <p class="feature-desc">Đơn lần đầu (thử nghiệm thị trường) từ 5 tấn cho mỗi mã. Đơn hàng năm không có giới hạn cứng — VPIC sắp xếp theo lịch sản xuất.</p>
+      </div>
+      <div class="feature-cell reveal">
+        <div class="feature-num">Q.02</div>
+        <h3 class="feature-title">Khách có giữ công thức khi đổi nhà gia công không?</h3>
+        <p class="feature-desc">Công thức tuỳ chỉnh hoàn toàn cho khách thuộc về khách hàng — VPIC cam kết bằng NDA. Công thức nền tiêu chuẩn của VPIC thì thuộc về VPIC.</p>
+      </div>
+      <div class="feature-cell reveal">
+        <div class="feature-num">Q.03</div>
+        <h3 class="feature-title">Có hỗ trợ thiết kế nhãn mác không?</h3>
+        <p class="feature-desc">VPIC chỉ sản xuất và đóng gói theo file thiết kế khách cung cấp. Nếu cần hỗ trợ thiết kế, VPIC giới thiệu đối tác chuyên nghiệp.</p>
+      </div>
+      <div class="feature-cell reveal">
+        <div class="feature-num">Q.04</div>
+        <h3 class="feature-title">Sản phẩm có giấy phép, công bố không?</h3>
+        <p class="feature-desc">VPIC hỗ trợ khách hàng làm hồ sơ công bố chất lượng tại cơ quan có thẩm quyền. Chi phí và thời gian theo quy định pháp luật Việt Nam.</p>
+      </div>
+      <div class="feature-cell reveal">
+        <div class="feature-num">Q.05</div>
+        <h3 class="feature-title">Điều khoản thanh toán?</h3>
+        <p class="feature-desc">Đơn hàng đầu tiên: 50% đặt cọc + 50% trước giao hàng. Đối tác lâu dài có thể đàm phán công nợ 15–30 ngày sau khi hợp đồng khung được ký.</p>
+      </div>
+      <div class="feature-cell reveal">
+        <div class="feature-num">Q.06</div>
+        <h3 class="feature-title">Có nhận gia công sơn cho thị trường xuất khẩu không?</h3>
+        <p class="feature-desc">Có — VPIC đã có kinh nghiệm gia công sơn xuất khẩu sang một số thị trường ASEAN. Cần trao đổi cụ thể về yêu cầu tiêu chuẩn từng nước.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="footer-brand-name">VPIC</div>
+        <div class="footer-tag">Vietnam Paint Industrial &amp; Civil</div>
+        <p class="footer-desc">Đối tác gia công sơn bảo vệ cho các thương hiệu Việt Nam. Sản xuất theo đặt hàng OEM/ODM — chất lượng đo được, chi phí cạnh tranh, đối tác minh bạch.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sản phẩm</h4>
+        <ul>
+          <li><a href="san-pham/son-chong-tham.html">Sơn chống thấm</a></li>
+          <li><a href="san-pham/son-cong-nghiep.html">Sơn công nghiệp</a></li>
+          <li><a href="san-pham/son-epoxy.html">Sơn Epoxy</a></li>
+          <li><a href="san-pham/son-trang-tri.html">Sơn trang trí</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Công ty</h4>
+        <ul>
+          <li><a href="ve-vpic.html">Về VPIC</a></li>
+          <li><a href="nha-may.html">Nhà máy</a></li>
+          <li><a href="quy-trinh.html">Quy trình</a></li>
+          <li><a href="chat-luong.html">Chất lượng</a></li>
+          <li><a href="kien-thuc.html">Kiến thức ngành</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Liên hệ</h4>
+        <ul>
+          <li><a href="mailto:oem@vpic.vn">oem@vpic.vn</a></li>
+          <li><a href="lien-he.html">Hotline OEM</a></li>
+          <li><a href="lien-he.html">Yêu cầu báo giá</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 VPIC · VIETNAM PAINT INDUSTRIAL &amp; CIVIL JSC.</div>
+      <div class="right">
+        <span>OEM / ODM PARTNER</span>
+        <span>MADE IN VIETNAM</span>
+      </div>
+    </div>
+  </div>
+</footer><script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('visible');
+      observer.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -50px 0px' });
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+const nav = document.querySelector('.nav');
+window.addEventListener('scroll', () => {
+  const s = window.scrollY;
+  if (s > 60) {
+    nav.style.padding = '12px 40px';
+    nav.style.boxShadow = '0 4px 20px -10px rgba(27,54,93,0.15)';
+  } else {
+    nav.style.padding = '18px 40px';
+    nav.style.boxShadow = 'none';
+  }
+});
+
+const navToggle = document.querySelector('.nav-toggle');
+const navLinks = document.querySelector('.nav-links');
+navToggle?.addEventListener('click', () => {
+  const open = navLinks.style.display === 'flex';
+  if (open) navLinks.style.display = '';
+  else {
+    navLinks.style.cssText = 'display:flex; position:absolute; top:60px; left:0; right:0; flex-direction:column; background:var(--cream); padding:20px; border-bottom:1px solid var(--line); align-items:flex-start;';
+  }
+});
+</script>
+</body>
+</html>
